@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: foxykav2/mlflow-model:latest
+          tags: foxykav/mlflow-model:latest
