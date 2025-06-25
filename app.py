@@ -4,7 +4,7 @@ import joblib  # or pickle depending on your model save method
 app = Flask(__name__)
 
 # Load your model (adjust path as needed)
-model = joblib.load('C:/Users/dany7/OneDrive/Bureau/devops/DVC, MLFlow and Dagshub/mlflow-dagshub-project/mlflow-with-daghub/model.pkl')
+model = joblib.load('model.pkl')
 
 @app.route('/predict', methods=['POST'])
 def predict():
